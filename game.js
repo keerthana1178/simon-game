@@ -45,9 +45,7 @@ function animatePress(currentColor){
 }
 
 $(".bttn").click(nextSequence);
-//$(document).keypress(nextSequence);
 
-//$(document).click(nextSequence);
 var level=0;
 
 function checkAnswer(currentLevel){
@@ -68,7 +66,7 @@ function checkAnswer(currentLevel){
     }, 200);
     $("h1").text("GAME OVER..! You have cleared "+level + " levels.");
     $("h1").css("fontSize",25);
-    $("h1").css("fontFamily","cursive");
+    
     $(".container").after("<button class='bttn' id='ide'> restart</button>");
     $(".bttn").click(startOver);
 
@@ -79,7 +77,7 @@ function checkAnswer(currentLevel){
 
 function startOver(){
   setTimeout(function(){
-  //  document.GetElementById("ide").style.visibility="hidden";
+  
    $(".bttn").remove();
   },200);
   level=0;
