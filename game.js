@@ -67,7 +67,7 @@ function checkAnswer(currentLevel){
     $("h1").text("GAME OVER..! You have cleared "+level + " levels.");
     $("h1").css("fontSize",25);
     //$("h1).css("fontFamily", Press Start 2P);
-   $("h1").css({"font-family": 'Press Start 2P',cursive});
+   $("h1").css({"font-family": "Press Start 2P,cursive"});
     $(".container").after("<button class='bttn' id='ide'> restart</button>");
     $(".bttn").click(startOver);
 
