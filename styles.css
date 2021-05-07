@@ -4,7 +4,7 @@ body {
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family:  'Press Start 2P',cursive;
   font-size: 3rem;
   margin:  1.5%;
   color: #FEF2BF;
@@ -58,7 +58,11 @@ body {
 
 .bttn {
    background: #3D94F6;
-
+   /* background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0); */
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
@@ -77,5 +81,3 @@ body {
    cursor: pointer;
    text-align: center;
 }
-
-
